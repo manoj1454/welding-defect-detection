@@ -26,6 +26,7 @@ MODEL_URL = f"https://drive.google.com/uc?id={FILE_ID}"
 # DOWNLOAD MODEL
 # =========================
 def download_model():
+    print("Downloading from:", MODEL_URL)
     os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
 
     print("Downloading model...")
