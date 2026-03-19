@@ -1,0 +1,8 @@
+flask
+numpy
+opencv-python-headless
+tqdm
+gunicorn
+
+torch==2.0.0+cpu
+torchvision==0.15.1+cpu

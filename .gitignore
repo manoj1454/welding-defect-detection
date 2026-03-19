@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+uploads/
+.ipynb_checkpoints/
+
+The Welding Defect Dataset - v1/
+The Welding Defect Dataset - v2/
