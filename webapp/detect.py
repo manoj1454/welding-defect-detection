@@ -2,7 +2,7 @@ import cv2
 import torch
 import os
 
-from webapp.detect import predict
+from webapp.model_loader import load_model
 
 # =========================
 # DEVICE
