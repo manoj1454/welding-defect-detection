@@ -1,7 +1,32 @@
+# Python
 __pycache__/
 *.pyc
-uploads/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Jupyter
 .ipynb_checkpoints/
 
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads (generated at runtime)
+webapp/uploads/
+
+# Dataset (VERY IMPORTANT)
 The Welding Defect Dataset - v1/
 The Welding Defect Dataset - v2/
+
+# Large model files (optional — keep if small)
+# models/*.pth
+
+# Logs
+*.log
+
+models/*.pth
