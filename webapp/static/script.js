@@ -32,6 +32,18 @@ method:"POST",
 body:formData
 })
 
+if(!response.ok){
+alert("Server error")
+return
+}
+
+const data = await response.json()
+
+if(!data.image){
+alert("Prediction failed")
+return
+}
+
 const data = await response.json()
 
 document.getElementById("result").innerText =
