@@ -1,9 +1,8 @@
 flask
-numpy
+numpy==1.24.4
 opencv-python-headless
 tqdm
 gunicorn
 gdown
-
 torch==2.0.1
 torchvision==0.15.2
