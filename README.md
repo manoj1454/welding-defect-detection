@@ -22,17 +22,17 @@ https://huggingface.co/spaces/manoj1454/welding-defect-detection
 ## System Architecture
 
 User Upload Image  
-↓  
+        ↓  
 Flask Web Interface  
-↓  
+        ↓  
 Image Preprocessing (OpenCV)  
-↓  
+        ↓  
 RetinaNet Deep Learning Model  
-↓  
+        ↓  
 Defect Detection  
-↓  
+        ↓  
 Bounding Box Visualization  
-↓  
+        ↓  
 Result Display  
 
 ## Tech Stack
@@ -126,6 +126,7 @@ This project demonstrates the use of deep learning for automated weld inspection
 
 ## Author
 
-BHUVANAGIRI MANOJ CHARY Computer Science Engineering
+BHUVANAGIRI MANOJ CHARY 
+Computer Science Engineering
 
 Project: Welding Defect Detection using Deep Learning
